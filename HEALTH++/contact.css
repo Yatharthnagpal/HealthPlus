@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    justify-content: center; /* Center the content vertically */
+}
+
+/* Modify the header styles */
+.header {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+    gap: 0.625rem;
+    position: absolute;
+    top: -10px; /* Move logo a little above */
+    left: 20px; /* Align logo to the left corner */
+}
+
+.logo-icon {
+    height: 2.12rem;
+    width: 1.938rem;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -10px; /* Align the login button with the logo */
+    right: 20px; /* Align login button to the right corner */
+}
+
+.contact-button {
+    background-color: #007b5e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #005a40;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #005a87;
+    text-align: center; /* Center the heading */
+}
+
+.contact-info {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #007b5e;
+    color: white;
+    padding: 13px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 15px; 
+}
+
+button:hover {
+    background-color: #005a40;
+}
+
+/* Align logo and Contact Us on the same line */
+.contact-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+    margin-bottom: 20px;
+    justify-content: center; /* Center the logo and title horizontally */
+}
+
+.contact-icon {
+    width: 50px; /* Adjust size of the contact logo */
+    height: auto;
+}
