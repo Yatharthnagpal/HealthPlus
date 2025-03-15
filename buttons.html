@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    <h1>More From Health++</h1>
+    <p>Health++ provides innovative healthcare solutions to improve your well-being.</p>
+
+    <div class="card">
+        <img src="img/health.jpg" alt="Health Tracking">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+            <h5 class="card-title">Health Tracking</h5>
+            <p class="card-text">Check your past records with the precised day-to-day health checkups.</p>
+            <a href="#" class="btn">open</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="img/payment.jpg" alt="Payment History">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+            <h5 class="card-title">Payment History</h5>
+            <p class="card-text">Payment slips and bills from past of doctors.</p>
+            <a href="#" class="btn1">open</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="img/hospital.jpg" alt="Hospitals listed">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+            <h5 class="card-title">Hospitals Listed</h5>
+            <p class="card-text">Info of all the hospitals from where we have collaboration.</p>
+            <a href="#" class="btn2">open</a>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+document.querySelector('.btn').addEventListener('click', () => {
+window.location.href = 'health-tracking.html';
+});
+document.querySelector('.btn1').addEventListener('click', () => {
+window.location.href = 'payment-history.html';
+});    
+document.querySelector('.btn2').addEventListener('click', () => {
+window.location.href = 'hospitals-listed.html';
+});
+</script>
